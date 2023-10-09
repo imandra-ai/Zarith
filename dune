@@ -24,7 +24,7 @@
 
 (rule
  (target Makefile)
- (deps configure config.guess gmp.env)
+ (deps configure gmp.env)
  (action
   (with-stdout-to
    configure.out
